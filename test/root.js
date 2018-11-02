@@ -3,7 +3,6 @@ global.expect = require('expect');
 const babel = require('babel-core');
 const jsdom = require('jsdom');
 const path = require('path');
-const spy = require('spy');
 
 before(function(done) {
   const babelResult = babel.transformFileSync(
