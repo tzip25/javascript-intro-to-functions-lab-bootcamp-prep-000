@@ -11,4 +11,8 @@ function logShout(string) {
   console.log(spy)
   }
 
+function logShout(string) {
+  var spy = string.toLowerCase()
+  console.log(spy)
+  }
   
