@@ -16,3 +16,6 @@ function logWhisper(string) {
   console.log(spy)
   }
   
+  function sayHiToGrandma(string) {
+    
+  }
